@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondColor"
+    tools:context=".view.AddBookFragment"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:onClick="selectImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/addbook"></ImageView>
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            ></Spinner>
+
+    </androidx.cardview.widget.CardView>
+
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        android:text="Lütfen eklemek istediğiniz kitap türünü seçiniz."
+        android:fontFamily="@font/carter_one"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/bookName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:maxLines="1"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/background_button"
+        android:fontFamily="@font/carter_one"
+        android:hint="Kitap İsmi"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:drawableLeft="@drawable/bookname"
+        android:drawablePadding="7dp"></EditText>
+
+
+    <EditText
+        android:id="@+id/authorName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/background_button"
+        android:fontFamily="@font/carter_one"
+        android:hint="Yazarı"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:textSize="22dp"
+        android:drawableLeft="@drawable/writer"
+        android:drawablePadding="7dp"></EditText>
+
+
+    <EditText
+        android:id="@+id/numberOfPages"
+        android:layout_width="300dp"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/background_button"
+        android:fontFamily="@font/carter_one"
+        android:hint="Sayfa Sayısı"
+        android:textColor="@color/white"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textSize="22dp"
+        android:drawableLeft="@drawable/bookpage"
+        android:drawablePadding="7dp"></EditText>
+
+    <EditText
+        android:id="@+id/readPage"
+        android:layout_width="300dp"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/background_button"
+        android:fontFamily="@font/carter_one"
+        android:visibility="gone"
+        android:hint="Okunan Sayfa Sayısı"
+        android:textColor="@color/white"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textSize="22dp"
+        android:drawableLeft="@drawable/completepage"
+        android:drawablePadding="7dp"></EditText>
+
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="300dp"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/background_button"
+        android:fontFamily="@font/carter_one"
+        android:hint="Ortalama Fiyatı"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textSize="22dp"
+        android:drawableLeft="@drawable/priceicon"
+        android:drawablePadding="7dp"></EditText>
+
+    <EditText
+        android:id="@+id/summary"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:maxLength="250"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/background_button"
+        android:fontFamily="@font/carter_one"
+        android:hint="Kitap Özeti max (250)"
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textSize="22dp"
+        android:drawableLeft="@drawable/summary"
+        android:drawablePadding="7dp"></EditText>
+
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="save"
+        android:background="@drawable/background_button"
+        android:fontFamily="@font/carter_one"
+        android:text="Kaydet"
+        android:textColor="@color/white"></Button>
+
+
+
+
+
+
+
+
+</LinearLayout>

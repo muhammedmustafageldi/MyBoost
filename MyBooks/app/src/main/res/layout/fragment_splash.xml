@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.SplashFragment"
+    android:orientation="vertical"
+    android:background="@color/thirdColor">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MyBoost"
+        android:layout_gravity="center"
+        android:fontFamily="@font/carter_one"
+        android:textSize="40dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        ></TextView>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:lottie_rawRes="@raw/splashanim"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="false"></com.airbnb.lottie.LottieAnimationView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Development By"
+        android:layout_gravity="center"
+        android:fontFamily="@font/carter_one"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SWANKY"
+        android:layout_gravity="center"
+        android:fontFamily="@font/carter_one"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        ></TextView>
+
+
+
+</LinearLayout>

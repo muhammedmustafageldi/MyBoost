@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.131" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/drawable/background_button.xml" value="0.1725" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/drawable/bg_spinner.xml" value="0.1695" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/drawable/close_icon.xml" value="0.12" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/drawable/container_bg.xml" value="0.159" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/drawable/custom_progress_bg.xml" value="0.159" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.1695" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/drawable/ic_launcher_background.xml" value="0.131" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/drawable/style_spinner.xml" value="0.1695" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/drawable/transbuttonbg.xml" value="0.159" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/layout/book_is_finished_dialog.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/layout/delete_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/layout/finished_books_recycler_row.xml" value="0.25" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/layout/fragment_add.xml" value="0.2" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/layout/fragment_add_book.xml" value="0.264" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/layout/fragment_finished_books.xml" value="0.25" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/layout/fragment_notes.xml" value="0.2359375" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/layout/fragment_now_read.xml" value="0.25" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/layout/fragment_read_room.xml" value="0.25" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/layout/fragment_requested_books.xml" value="0.25" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/layout/fragment_splash.xml" value="0.22592592592592592" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/layout/items_list.xml" value="0.2" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/layout/list_item.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/layout/notes_recycler_row.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/layout/now_read_recycler_row.xml" value="0.25" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/layout/obtain_book_dialog.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/layout/read_finished_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/layout/read_mode_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/layout/requested_books_recycler_row.xml" value="0.264" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/layout/style_spinner.xml" value="0.25" />
+        <entry key="..\:/Users/Mustafa/AndroidStudioProjects/MyBooks/app/src/main/res/layout/swanky_text_dialog.xml" value="0.2318840579710145" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

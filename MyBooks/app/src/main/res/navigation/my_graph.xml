@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.mustafageldi.mybooks.view.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_addBookFragment"
+            app:destination="@id/addBookFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_nowReadFragment"
+            app:destination="@id/nowReadFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_requestedBooks"
+            app:destination="@id/requestedBooks" />
+        <action
+            android:id="@+id/action_homeFragment_to_finishedBooksFragment"
+            app:destination="@id/finishedBooksFragment" />
+        <argument
+            android:name="totalReadPage"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/addBookFragment"
+        android:name="com.mustafageldi.mybooks.view.AddBookFragment"
+        android:label="fragment_add_book"
+        tools:layout="@layout/fragment_add_book" >
+        <action
+            android:id="@+id/action_addBookFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nowReadFragment"
+        android:name="com.mustafageldi.mybooks.view.NowReadFragment"
+        android:label="fragment_now_read"
+        tools:layout="@layout/fragment_now_read" >
+        <action
+            android:id="@+id/action_nowReadFragment_to_readRoomFragment"
+            app:destination="@id/readRoomFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/requestedBooks"
+        android:name="com.mustafageldi.mybooks.view.RequestedBooksFragment"
+        android:label="fragment_requested_books"
+        tools:layout="@layout/fragment_requested_books" />
+    <fragment
+        android:id="@+id/finishedBooksFragment"
+        android:name="com.mustafageldi.mybooks.view.FinishedBooksFragment"
+        android:label="fragment_finished_books"
+        tools:layout="@layout/fragment_finished_books" />
+    <fragment
+        android:id="@+id/readRoomFragment"
+        android:name="com.mustafageldi.mybooks.view.ReadRoomFragment"
+        android:label="fragment_read_room"
+        tools:layout="@layout/fragment_read_room" >
+        <argument
+            android:name="id"
+            app:argType="integer" />
+        <argument
+            android:name="bookid"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.mustafageldi.mybooks.view.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>
